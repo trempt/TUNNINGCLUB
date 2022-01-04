@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: `/`, // Change to `/running_page` when running on github pages
+  pathPrefix: `TUNNINGCLUB`, // Change to `/running_page` when running on github pages
   siteMetadata: {
     siteTitle: 'TED Running Club',
     siteUrl: 'https://tunningclub.vercel.app',
