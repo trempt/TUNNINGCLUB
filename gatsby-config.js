@@ -1,14 +1,14 @@
 module.exports = {
   pathPrefix: `/`, // Change to `/running_page` when running on github pages
   siteMetadata: {
-    siteTitle: 'Running Page',
-    siteUrl: 'https://yihong.run',
+    siteTitle: 'TED Running Club',
+    siteUrl: 'https://tunningclub.vercel.app',
     logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU',
     description: 'Personal site and blog',
     navLinks: [
       {
-        name: 'Blog',
-        url: 'https://yihong.run/running',
+        name: '我们都曾寂寞的成长',
+        url: 'https://tunningclub.vercel.app',
       },
       {
         name: 'About',
