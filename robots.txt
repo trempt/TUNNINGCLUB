@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://yihong.run/sitemap/sitemap-index.xml
-Host: https://yihong.run
+Sitemap: https://tunningclub.vercel.app/TUNNINGCLUB/sitemap/sitemap-index.xml
+Host: https://tunningclub.vercel.app
