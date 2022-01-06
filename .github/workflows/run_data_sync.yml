@@ -24,8 +24,8 @@ env:
   TITLE: ted Running
   MIN_GRID_DISTANCE: 10 # change min distance here
   TITLE_GRID: Over 10km Runs # also here
-  GITHUB_NAME: yihong0618
-  GITHUB_EMAIL: zouzou0208@gmail.com
+  GITHUB_NAME: trempt
+  GITHUB_EMAIL: f6iend@gmail.cm
 
 jobs:
   sync:
