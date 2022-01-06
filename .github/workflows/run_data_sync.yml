@@ -25,7 +25,7 @@ env:
   MIN_GRID_DISTANCE: 10 # change min distance here
   TITLE_GRID: Over 10km Runs # also here
   GITHUB_NAME: trempt
-  GITHUB_EMAIL: f6iend@gmail.cm
+  GITHUB_EMAIL: f6iend@gmail.com
 
 jobs:
   sync:
