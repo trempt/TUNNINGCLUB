@@ -60,7 +60,7 @@ jobs:
       - name: Run sync Nike script
         if: env.RUN_TYPE == 'nike'
         run: |
-          python scripts/nike_sync.py eyJhbGciOiJSUzI1NiIsImtpZCI6ImU2YTIzYjUxLTIwNDEtNDBkNS05MjEyLTU5NGQxOTM3NzA2ZnNpZyJ9.eyJ0cnVzdCI6MTAwLCJpYXQiOjE2NzIxNDc2NjMsImV4cCI6MTcwMzY4MzY2MywiaXNzIjoib2F1dGgyaWR0IiwianRpIjoiOTY0YWE3YTktNDllZi00NzZjLTg0Y2QtNjk1NzQzYmU2NWMzIiwibGF0IjoxNjM4ODAwNTU0LCJhdWQiOiJvYXV0aDJpZHQiLCJjbGkiOiJIbEhhMkNqZTNjdGxhT3FueHZnWlhOYUFzN1Q5bkF1SCIsInN1YiI6IjUxMzY4MjU2NzkiLCJzYnQiOiJuaWtlOnBsdXMifQ.TNox4FJbGB5cMLdSoPzI04R1qTgt6Q7Hw2eCUNXEOjjyv1sD1m9IFthvA39L0TS47dgfCSa3cI4FzbIIEFfXHJbeLMCj-vo_BlBsGFEkhyXSHsQlz9ILaGEHeW09NZZ2k1UAOxR8tsF2bztl7bLG-iK0fzoLaA3cFFsVnYNs-kPjwoiUyHUkkVkmCiat9xHSOeQ45qE6wYWNIT3VJ0YiA0qh7jZ00Fq5BWx2IWng_Ym4OQLzDyjPYW7z1MmbzedYVzZUYPRPScQPGR91xbst5nMTpZphcyr0TsiDZMvv66wtRNkYLs_fXngh0O170yTjWdM8rK97ImhOYoWpH_cuJA
+          python scripts/nike_sync.py ${nike refresh_token}
       - name: Run sync Nike to Strava(Run with nike data backup and show with strava)
         if: env.RUN_TYPE == 'nike_to_strava'
         run: |
